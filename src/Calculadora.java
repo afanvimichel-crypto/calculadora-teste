@@ -37,9 +37,9 @@ public class Calculadora {
             message(nome);
             System.out.println("digite dois nùmeros:");
             System.out.print("Nùmero 1: ");
-            double numero1=sc.nextInt();
+            double numero1=sc.nextDouble();
             System.out.print("Nùmero 2:");
-            double numero2=sc.nextInt();
+            double numero2=sc.nextDouble();
             System.out.println("*************OPERATÇÃOS***************\n");
             adicao(numero1,numero2);
             soubi(numero1,numero2);
